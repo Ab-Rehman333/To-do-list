@@ -17,11 +17,10 @@ addBtn.addEventListener("click", (e) => {
     notesObj.push(addTxt.value);
     localStorage.setItem("notes", JSON.stringify(notesObj));
     addTxt.value = "";
-    console.log(notesObj);
     showNotes();
 })
 
-function showNotes() {
+showNotes = () => {
     let notes = localStorage.getItem("notes");
     if (notes == null) {
         notesObj = [];
@@ -52,7 +51,7 @@ function showNotes() {
 }
 
 // let's create a delete functionality 
-function deletTxt(index) {
+deletTxt = (index) => {
 
     let notes = localStorage.getItem("notes");
     if (notes == null) {
