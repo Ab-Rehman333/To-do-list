@@ -1,0 +1,104 @@
+/* css reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, pink, orange, green, indigo, violet);
+}
+
+.main-card {
+    border: none;
+}
+
+/* ================================ utility clases =============================== */
+.Gradient {
+
+    font-size: 42px;
+    background: -webkit-linear-gradient(blue, pink, aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.navbar-brand {
+    color: purple;
+    font-size: 1.7rem;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.7rem;
+}
+
+.btn {
+    color: white;
+}
+
+.button {
+    background-color: pink;
+    background: -webkit-linear-gradient(blue, green, aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 113px;
+    height: 40px;
+    font-size: 1rem;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    font-weight: 600;
+    transition: all .2s ease;
+}
+
+
+.button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.Delete-button {
+    background: -webkit-linear-gradient(rgb(238, 95, 0), red purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 120px;
+    height: 40px;
+    font-size: 1rem;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    font-weight: 600;
+}
+
+.Delete-button:focus {
+    box-shadow: none;
+
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+
+}
+
+hr {
+    display: block;
+    width: 58% !important;
+    color: red;
+}
+
+.heading-two {
+    background: linear-gradient(to top, #121FCF 50%, #CF1512 10%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.img{
+    height: 460px;
+    width: 90%;
+}
